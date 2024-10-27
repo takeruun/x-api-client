@@ -4,7 +4,6 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "author": "takeru hashimoto",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+github.com:takeruun/x-api-client.git"
