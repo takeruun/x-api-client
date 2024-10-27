@@ -9,11 +9,17 @@
     "type": "git",
     "url": "git+github.com:takeruun/x-api-client.git"
   },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "license": "UNLICENSED",
   "scripts": {
     "lint": "eslint .",
     "format": "prettier . --write",
     "fix": "yarn lint --fix && yarn format --loglevel error",
-    "build": "rm -rf dist && tsc -p tsconfig.build.json && tsc-alias"
+    "build": "rm -rf dist && tsc -p tsconfig.build.json && tsc-alias",
+    "prepublishOnly": "yarn build"
   },
   "dependencies": {
     "axios": "^1.7.2"
