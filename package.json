@@ -12,6 +12,9 @@
     "access": "restricted",
     "registry": "https://npm.pkg.github.com"
   },
+  "files": [
+    "dist"
+  ],
   "license": "UNLICENSED",
   "scripts": {
     "lint": "eslint .",
