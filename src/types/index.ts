@@ -8,6 +8,8 @@ import {
   Tweet_results,
 } from './tweet';
 
+export * from './tweet';
+
 export const isInstruction_TimelineAddEntries = (
   content: Instruction_TweetDetail,
 ) => {
